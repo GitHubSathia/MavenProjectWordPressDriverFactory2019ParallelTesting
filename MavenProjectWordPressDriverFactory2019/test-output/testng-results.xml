@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="SmokeTests" duration-ms="57010" started-at="2019-06-15T02:24:27Z" finished-at="2019-06-15T02:25:24Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="57010" started-at="2019-06-15T02:24:27Z" finished-at="2019-06-15T02:25:24Z">
+      <class name="Tests.PostsTests">
+        <test-method status="PASS" signature="driverInitialize()[pri:0, instance:Tests.PostsTests@3108bc]" name="driverInitialize" is-config="true" duration-ms="13864" started-at="2019-06-15T02:24:29Z" finished-at="2019-06-15T02:24:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverInitialize -->
+        <test-method status="PASS" signature="createPosts(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Tests.PostsTests@3108bc]" name="createPosts" duration-ms="15783" started-at="2019-06-15T02:24:43Z" data-provider="TestCaseSheetData" finished-at="2019-06-15T02:24:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[createPosts]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[WordPress5]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[WordPress5]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[NA]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Pass]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Spring weather]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Winter is on]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPosts -->
+        <test-method status="PASS" signature="driverCleanUp()[pri:0, instance:Tests.PostsTests@3108bc]" name="driverCleanUp" is-config="true" duration-ms="3466" started-at="2019-06-15T02:24:58Z" finished-at="2019-06-15T02:25:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverCleanUp -->
+        <test-method status="PASS" signature="driverInitialize()[pri:0, instance:Tests.PostsTests@3108bc]" name="driverInitialize" is-config="true" duration-ms="5673" started-at="2019-06-15T02:25:02Z" finished-at="2019-06-15T02:25:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverInitialize -->
+        <test-method status="PASS" signature="editPosts(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Tests.PostsTests@3108bc]" name="editPosts" duration-ms="13617" started-at="2019-06-15T02:25:07Z" data-provider="TestCaseSheetData" depends-on-methods="Tests.PostsTests.createPosts" finished-at="2019-06-15T02:25:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[editPosts]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[WordPress5]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[WordPress5]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[NA]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Pass]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Spring weather]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Summer is pleasant]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editPosts -->
+        <test-method status="PASS" signature="driverCleanUp()[pri:0, instance:Tests.PostsTests@3108bc]" name="driverCleanUp" is-config="true" duration-ms="3160" started-at="2019-06-15T02:25:21Z" finished-at="2019-06-15T02:25:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverCleanUp -->
+      </class> <!-- Tests.PostsTests -->
+      <class name="Tests.LoginTests">
+        <test-method status="PASS" signature="driverInitialize()[pri:0, instance:Tests.LoginTests@13a5fe33]" name="driverInitialize" is-config="true" duration-ms="12046" started-at="2019-06-15T02:24:29Z" finished-at="2019-06-15T02:24:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverInitialize -->
+        <test-method status="PASS" signature="driverInitialize()[pri:0, instance:Tests.LoginTests@13a5fe33]" name="driverInitialize" is-config="true" duration-ms="10050" started-at="2019-06-15T02:24:29Z" finished-at="2019-06-15T02:24:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverInitialize -->
+        <test-method status="PASS" signature="userCanLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Tests.LoginTests@13a5fe33]" name="userCanLogin" duration-ms="10242" started-at="2019-06-15T02:24:39Z" data-provider="TestCaseSheetData" finished-at="2019-06-15T02:24:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[userCanLogin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[WordPress5]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[WordPress5]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Valid]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Pass]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[NA]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[NA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userCanLogin -->
+        <test-method status="PASS" signature="userCannotLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Tests.LoginTests@13a5fe33]" name="userCannotLogin" duration-ms="2536" started-at="2019-06-15T02:24:41Z" data-provider="TestCaseSheetData" finished-at="2019-06-15T02:24:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[userCannotLogin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[WordPress5]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[abc]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Pass]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[NA]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[NA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userCannotLogin -->
+        <test-method status="PASS" signature="driverCleanUp()[pri:0, instance:Tests.LoginTests@13a5fe33]" name="driverCleanUp" is-config="true" duration-ms="8768" started-at="2019-06-15T02:24:43Z" finished-at="2019-06-15T02:24:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverCleanUp -->
+        <test-method status="PASS" signature="driverCleanUp()[pri:0, instance:Tests.LoginTests@13a5fe33]" name="driverCleanUp" is-config="true" duration-ms="3409" started-at="2019-06-15T02:24:49Z" finished-at="2019-06-15T02:24:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverCleanUp -->
+      </class> <!-- Tests.LoginTests -->
+    </test> <!-- Test -->
+  </suite> <!-- SmokeTests -->
+</testng-results>
